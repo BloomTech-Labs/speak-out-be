@@ -42,7 +42,6 @@ server.use(restricted, courseRoutes);
 server.use(restricted, courseEnrollmentRoutes);
 server.use(restricted, attendanceRoutes);
 server.use(restricted, userRoutes);
-// server.use(restricted, familyRoutes);
 
 server.get('/', (req, res) => {
   res
