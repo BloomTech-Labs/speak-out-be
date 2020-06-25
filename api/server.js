@@ -15,7 +15,6 @@ const courseRoutes = require('./routes/course.routes');
 const courseEnrollmentRoutes = require('./routes/course_enrollment.routes');
 const attendanceRoutes = require('./routes/attendance.routes');
 const userRoutes = require('./routes/user.routes');
-// const familyRoutes = require('./routes/family.routes.js');
 const restricted = require('./middlewares/restricted.middleware.js');
 
 // ------- Set up server -------
@@ -28,15 +27,11 @@ server.use(express.json());
 server.use(
   cors({
     origin: [
-      'https://stagingspeakout.netlify.com',
-      'https://speakout-stage.netlify.com',
-      'https://adminspeakout.netlify.com',
+      'https://thegardenedu.com',
       'http://localhost:3000',
       'https://speakout-now.com',
-      'https://speakout-bh.netlify.com',
       'https://speak-out-bh.com',
-      'https://www.speak-out-bh.com',
-      'https://rc1-staging.d3pg0n6842ntws.amplifyapp.com'
+      'https://www.speak-out-bh.com'
     ],
     credentials: true
   })
