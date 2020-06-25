@@ -88,7 +88,7 @@ const findAll = () => {
     // .join('term as t', 't.id', 'c.term_id')
     // .join('course_type as ct', 'ct.id', 'c.course_type_id')
     // .join('group_type as gt', 'gt.id', 'c.group_type_id')
-    .join('level as l', 'l.id', 'c.level_id')
+    // .join('level as l', 'l.id', 'c.level_id')
     // .join(
     //   'course_schedule as cs',
     //   'cs.id',
