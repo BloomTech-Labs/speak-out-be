@@ -24,6 +24,7 @@ const server = express();
 server.use(
   cors({
     origin: [
+      'https://thegardenedu.com',
       'https://stagingspeakout.netlify.com',
       'https://speakout-stage.netlify.com',
       'https://adminspeakout.netlify.com',
